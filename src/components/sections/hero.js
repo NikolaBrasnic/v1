@@ -68,7 +68,7 @@ const Hero = () => {
       Als angehender Software-Ingenieur mit Fokus auf Frontend-Entwicklung konzentriere ich mich auf die Entwicklung außergewöhnlicher digitaler Erlebnisse, 
       einschließlich Benutzeroberflächen(UI). Zukünftig plane ich auch die Entwicklung von {' '}
         <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-        mobilen Spielen.
+        mobilen Spielen
         </a>
         .
       </p>
