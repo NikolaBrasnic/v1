@@ -68,33 +68,12 @@ const Hero = () => {
       Als angehender Software-Ingenieur mit Fokus auf Frontend-Entwicklung konzentriere ich mich auf die Entwicklung außergewöhnlicher digitaler Erlebnisse, 
       einschließlich Benutzeroberflächen(UI). Zukünftig plane ich auch die Entwicklung von {' '}
         <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-        mobilen Spielen
+        mobilen Spielen.
         </a>
         .
       </p>
     </>
   );
-
-
-
-  
-  <><div v-if="!isMobile()" class="language-container">
-    <Language language="Python" link="https://github.com/markuskooche/ChessGame" file="./logos/python.svg" />
-    <Language language="Vue.js" link="https://github.com/markuskooche/PortfolioWebpage" file="./logos/vue.svg" />
-    <Language language="Laravel" link="https://spaceplace.pangoon.de" file="./logos/laravel.svg" />
-  </div><div v-if="isMobile()" class="language-container-mobile">
-      <LanguageMobile language="Python" link="https://github.com/markuskooche/ChessGame" file="./logos/python.svg" />
-      <LanguageMobile language="Vue.js" link="https://github.com/markuskooche/PortfolioWebpage" file="./logos/vue.svg" />
-      <LanguageMobile language="Laravel" link="https://spaceplace.pangoon.de" file="./logos/laravel.svg" />
-    </div></>
-
-
-
-
-
-
-
-
   const five = (
     <a
       className="email-link"
